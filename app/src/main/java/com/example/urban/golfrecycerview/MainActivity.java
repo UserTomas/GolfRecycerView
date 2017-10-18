@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 isListView = true;
                 mStaggeredLayoutManager.setSpanCount(1);
             }
+
             return true;
         }
         return super.onOptionsItemSelected(item);
